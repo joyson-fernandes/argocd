@@ -45,7 +45,7 @@ metadata:
   name: nginx-proxy-manager
   namespace: nginx-proxy-manager
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx-proxy-manager
@@ -94,7 +94,7 @@ metadata:
   name: nginx-proxy-manager-db
   namespace: nginx-proxy-manager
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx-proxy-manager-db
