@@ -10,7 +10,7 @@ metadata:
   namespace: nginx-proxy-manager
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
@@ -22,7 +22,7 @@ metadata:
   namespace: nginx-proxy-manager
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 100Mi
@@ -34,7 +34,7 @@ metadata:
   namespace: nginx-proxy-manager
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 500Mi
