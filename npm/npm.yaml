@@ -45,7 +45,7 @@ metadata:
   name: nginx-proxy-manager
   namespace: nginx-proxy-manager
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-proxy-manager
